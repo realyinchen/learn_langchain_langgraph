@@ -1,3 +1,11 @@
+dashscope==1.25.0
+ipywidgets==8.1.8
 langchain==1.0.3
+langchain-community==0.4.1
 langchain-openai==1.0.2
+langchain-huggingface==1.0.1
+langchain-qdrant==1.1.0
+pypdf==6.2.0
 python-dotenv==1.2.1
+rich==14.2.0
+sentence-transformers==5.1.2
