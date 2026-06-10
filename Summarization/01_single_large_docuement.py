@@ -17,9 +17,10 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda
 
-from utils.llm_uitls import get_llm
-
+# 必须在导入项目内部模块之前添加父目录到 sys.path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+from utils.llm_uitls import get_llm
 
 # 屏蔽 LiteLLM 网络请求失败的警告
 warnings.filterwarnings("ignore", message=".*Failed to fetch remote model cost map.*")
